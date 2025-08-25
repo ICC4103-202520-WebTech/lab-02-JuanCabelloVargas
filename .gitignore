@@ -1,0 +1,21 @@
+# === Rails / Node ===
+/log/*
+!/log/.keep
+/tmp/*
+!/tmp/.keep
+/storage/*
+!/storage/.keep
+/public/packs
+/public/packs-test
+/node_modules/
+/coverage/
+/.byebug_history
+/.bundle
+# DB locales (si aplica)
+db/*.sqlite3
+db/*.sqlite3-journal
+# Entornos
+.env
+.env.*
+# Bootsnap (por si quedó fuera)
+tmp/cache/bootsnap/*
