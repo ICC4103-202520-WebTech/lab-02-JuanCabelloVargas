@@ -1,38 +1,55 @@
-# Lab 2  
-**Convert your personal page into a Ruby on Rails app**
+#[![University Logo](/assets/images/Logo_uandes.png)](https://www.uandes.cl/)
 
-In this lab, you will transform the personal page you created in **Lab 1** into a web application using **Ruby on Rails**. You must use **PostgreSQL** as the database and apply **Bootstrap** for styling. The goal is to display the same content from Lab 1 in an "About" page within the Rails application.
+# Lab 2: Web Technologies -- About Me Page
 
+## Table of contents:
 
-##  Instructions
+- [Description](#description)
+- [System dependencies & Versions](#system-dependecies--versions)
+- [Usage](#usage)
 
-1. Create a new Rails app with PostgreSQL
+---
 
-2. Add Bootstrap
+## System Dependencies & Versions
 
-3. Create the `About` controller and route
+- **Ruby:** 3.4.5
+- **Rails:** 8.x
+- **Database:** PostgreSQL
 
-4. Populate the About page with your Lab 1 content
+---
 
-In the view, use the content you created in Lab 1 as a starting point but yo can make changes to it. Your page should include:
+## Installation
 
-- Full name  
-- Degree and year of admission  
-- GitHub link  
-- Short personal summary  
-- Table of your skills (programming languages, tools, etc.)
+1. Clone the repository
 
-Use **Bootstrap classes** to style your content (e.g., containers, headers, tables, etc.).
+```bash
+git clone https://github.com/ICC4103-202520-WebTech/lab-02-JuanCabelloVargas.git
+cd lab-02-JuanCabelloVargas
+```
+2. Install dependencies:
 
+```bash
+bundle install
+```
 
-##  Requirements
+3. Set up the database:
 
-| Item        | Description                                                      |
-|-------------|------------------------------------------------------------------|
-| Rails app   | Functional Rails app using PostgreSQL                           |
-| Styling     | Bootstrap used for layout and components                        |
-| Routing     | Root path (`/`) and `/about` route point to `About#index`       |
-| Content     | Same content from Lab 1 recreated using embedded Ruby templates |
-| Views       | Use of ERB with Bootstrap-styled HTML                           |
+```bash
+rails db:create
+```
+---
 
+## Usage
+
+1. Start the development server:
+
+```bash
+bin/dev
+```
+
+2. Open your browser and go to:
+
+[https://localhost:300](https://localhost:3000)
+
+You will see the page running locally.
 
