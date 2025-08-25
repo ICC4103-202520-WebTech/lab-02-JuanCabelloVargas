@@ -20,7 +20,7 @@
     </div>
   </nav>
 
-  <div class="container mt-5">
+  <div class="container mt-5 py-5">
     
     <header class="text-center hero p-5 mb-5"
       <h1 class="display-5 text-primary">Juan Cabello Vargas</h1>
@@ -83,9 +83,9 @@
     </section>
 
     <section id="proyectos">
-      <h2 class="text-primary">Algunos proyectos</h2>
+      <h2 class="text-primary mb-3">Algunos proyectos</h2>
 
-      <div class="row">
+      <div class="row mb-2">
         <div class="col">
           <a class="btn btn-primary" data-bs-toggle="collapse" href="#outfithueCollapse" role="button" aria-expanded="false" aria-controls="outfithueCollapse">
             OutfitHue
@@ -105,7 +105,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row mb-3">
         <div class="col">
           <div class="collapse multi-collapse" id="outfithueCollapse">
             <div class="card card-body">
@@ -140,6 +140,10 @@
         </div>
       </div>
     </section>
+
+    <footer class="text-center text-muted pt-3 border-top">
+      <small> <%= Time.current.year%> Juan Cabello - Laboratorio 2 - Web Technologies</small>
+    </footer>
 
   </div>
 </body>
