@@ -6,7 +6,18 @@
 
 - [Description](#description)
 - [System dependencies & Versions](#system-dependecies--versions)
+- [Installation](#installation)
 - [Usage](#usage)
+
+---
+
+## Description
+
+This project is a simple **Ruby on Rails web application** that recreates an *About Me* page.  
+It uses **PostgreSQL** as the database and **Bootstrap** for styling and responsive layout.  
+
+The app defines routes for both the root path (`/`) and `/about`, which point to the `About#index` controller action.  
+The content is rendered using **Embedded Ruby (ERB) templates** styled with Bootstrap components.
 
 ---
 
