@@ -20,9 +20,11 @@
     </div>
   </nav>
 
-  <div class="container mt-5 py-5">
+  <div class="container py-5">
     
-    <header class="text-center hero p-5 mb-5"
+    <header class="text-center p-5 mb-5">
+      <%= image_tag "avatar.jpg", alt: "Github Icon",
+            class: "rounded-circle border avatar-xl mb-2" %>
       <h1 class="display-5 text-primary">Juan Cabello Vargas</h1>
       <p class="text-secondary">Ingenieria Civil en Ciencias de la Computacion</p>
       <div class="gap-3 justify-content-center">
@@ -43,7 +45,7 @@
       </div>
     </section>
 
-    <section id="habilidades">
+    <section id="habilidades" class="mb-5">
       <div class="card shadow-sm">
         <div class="card-body p-4">
           <h2 class="section-title text-primary mb-3">Habilidades</h2>
@@ -83,58 +85,71 @@
     </section>
 
     <section id="proyectos">
-      <h2 class="text-primary mb-3">Algunos proyectos</h2>
+      <div class="card">
+        <div class="card-body">
+          <h2 class="text-primary mb-3">Algunos proyectos</h2>
 
-      <div class="row mb-2">
-        <div class="col">
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#outfithueCollapse" role="button" aria-expanded="false" aria-controls="outfithueCollapse">
-            OutfitHue
-          </a>
-        </div>
+          <div class="row mb-2">
+            <div class="col">
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#outfithueCollapse" role="button" aria-expanded="false" aria-controls="outfithueCollapse">
+                OutfitHue
+              </a>
+            </div>
 
-        <div class="col">
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#twitterCardCollapse" role="button" aria-expanded="false" aria-controls="twitterCardCollapse">
-            Twitter Follow Card
-          </a>
-        </div>
+            <div class="col">
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#twitterCardCollapse" role="button" aria-expanded="false" aria-controls="twitterCardCollapse">
+                Twitter Follow Card
+              </a>
+            </div>
 
-        <div class="col">
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#dotfilesCollapse" role="button" aria-expanded="false" aria-controls="dotfilesCollapse">
-            Dotfiles arch+hyprland
-          </a>
-        </div>
-      </div>
-
-      <div class="row mb-3">
-        <div class="col">
-          <div class="collapse multi-collapse" id="outfithueCollapse">
-            <div class="card card-body">
-              <p>
-                Aplicación hecha con React, su principal función es entregar una paleta de colores aleatoria cada día, para que el usuario pueda usar esos colores en su outfit diario.
-              </p>
-              <a href="https://github.com/JCabelloV/outfitHue" class="btn btn-primary">Ver en Github</a>
+            <div class="col">
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#dotfilesCollapse" role="button" aria-expanded="false" aria-controls="dotfilesCollapse">
+                Dotfiles arch+hyprland
+              </a>
             </div>
           </div>
-        </div>
-      
-        <div class="col">
-          <div class="collapse multi-collapse" id="twitterCardCollapse">
-            <div class="card card-body">
-              <p>
-                Implementación de la tarjeta para seguir usuarios de la aplicación Twitter. Basada en el video de Midudev.
-              </p>
-              <a href="https://github.com/JCabelloV/TwitterFollowingCard" class="btn btn-primary">Ver en Github</a>
-            </div>
-          </div>
-        </div>
 
-        <div class="col">
-          <div class="collapse multi-collapse" id="dotfilesCollapse">
-            <div class="card card-body">
-              <p>
-                Archivos de configuración de Arch + Hyprland. Incluye cambios para nvim, waybar, kitty, entre otros.
-              </p>
-              <a href="https://github.com/JCabelloV/desktop-dotfiles" class="btn btn-primary">Ver en Github</a>
+          <div class="row mb-3">
+            <div class="col">
+              <div class="collapse multi-collapse" id="outfithueCollapse">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">OutfitHue</h5>
+                    <p>
+                      Aplicación hecha con React, su principal función es entregar una paleta de colores aleatoria cada día, para que el usuario pueda usar esos colores en su outfit diario.
+                    </p>
+                    <a href="https://github.com/JCabelloV/outfitHue" class="btn btn-secondary">Ver en Github</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col">
+              <div class="collapse multi-collapse" id="twitterCardCollapse">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Twitter Follow Card</h5>
+                    <p>
+                      Implementación basica de la tarjeta para seguir usuarios de la aplicación Twitter. Basada en el video de Midudev.
+                    </p>
+                    <a href="https://github.com/JCabelloV/TwitterFollowingCard" class="btn btn-secondary">Ver en Github</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="collapse multi-collapse" id="dotfilesCollapse">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Dotfile</h5>
+                    <p>
+                      Archivos de configuración de Arch + Hyprland. Incluye cambios para nvim, waybar, kitty, entre otros.
+                    </p>
+                    <a href="https://github.com/JCabelloV/desktop-dotfiles" class="btn btn-secondary">Ver en Github</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
