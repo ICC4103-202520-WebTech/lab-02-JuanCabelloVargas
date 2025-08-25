@@ -1,4 +1,4 @@
-#[![University Logo](/assets/images/Logo_uandes.png)](https://www.uandes.cl/)
+# [![University Logo](app/assets/images/Logo_uandes.png)](https://www.uandes.cl/)
 
 # Lab 2: Web Technologies -- About Me Page
 
