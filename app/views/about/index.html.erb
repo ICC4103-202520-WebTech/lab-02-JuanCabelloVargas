@@ -4,12 +4,23 @@
   <title>About me | Juan Cabello</title>
 </head>
 <body>
-  <div class="container mt-5">
-    <header class="text-center">
-      <h1 class="text-primary">Juan Cabello Vargas</h1>
-      <p class="text-secondary">Ingenieria Civil en Ciencias de la Computacion - Ingreso 2024</p>
-    </header>
+  <nav class="navbar navbar-expand-lg bg-white border-bottom">
+    <div class="container">
+      <a class="navbar-brand" href="#">Juan Cabello</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMain">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#sobre-mi">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
+  <div class="container mt-5">
     <section>
       <p class="text-center">Puedes ver mis proyectos en
       <a href="https://github.com/JuanCabelloVargas" class="link-primary">GitHub Universidad</a>
@@ -18,7 +29,7 @@
       </p>
     </section>
 
-    <section>
+    <section id="#sobre-mi">
       <h2 class="text-primary text-center">Sobre Mi</h2>
       <p class="text-center">Soy estudiante de Ingenieria Civil en la Universidad de los Andes, entre el a;o 2024 a traves de cambio desde otra casa de estudios. Me interesa mucho aprender de distintas areas y ver como estas pueden llegar a relacionarse entre si, sin importar sus diferencias. En mi tiempo libre me gusta cuidar de mis plantas y probar recetas nuevas de cafe mientras juego con mis amigos</p>
     </section>
@@ -101,8 +112,6 @@
         </div>
       </div>
     </section>
-
-    
 
   </div>
 </body>
